@@ -20,27 +20,60 @@ body{
 .navbar-container{
     display: flex;
     align-items: center;
-    background-color: blanchedalmond;
     padding: 0 50px;
     height: 100%;
+    color: white;
+    font-family: 'Sen', sans-serif;
 }
 
 .logo-container{
     flex: 1;
-    background-color: yellowgreen;
+
+}
+
+.logo{
+
+    font-size: 30px;
+    color:#4dbf00;
 }
 
 .menu-container{
     flex: 6;
-    background-color: rebeccapurple;
+}
+
+.menu-list{
+    display:flex;
+    list-style:none;
+    margin: 50px;
+}
+
+.menu-list-item{
+    margin-right: 30px;
+
+}
+
+.menu-list-item.active{
+    font-weight: bold;
+
 }
 
 .profile-container{
     flex: 2;
-    background-color: yellow;
+    display: flex;
+    align-items: center;
 }
 
+.profile-picture{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
 
+}
+
+.profile-text-container{
+    margin: 0 20px;
+}
 
 .sidebar{
 
