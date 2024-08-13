@@ -17,6 +17,31 @@ body{
     background-color: black;
 }
 
+.navbar-container{
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 0 50px;
+    height: 100%;
+}
+
+.logo-container{
+    flex: 1;
+    background-color: yellowgreen;
+}
+
+.menu-container{
+    flex: 6;
+    background-color: rebeccapurple;
+}
+
+.profile-container{
+    flex: 2;
+    background-color: yellow;
+}
+
+
+
 .sidebar{
 
     width: 50px;
