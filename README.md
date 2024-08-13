@@ -1,2 +1,2 @@
 # MovieWebsite
- I'm going to create Netflix with HTML, CSS and JavaScript
+ Build a Movie website with HTML, CSS and JavaScript
